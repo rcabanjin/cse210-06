@@ -4,6 +4,7 @@
 
 ## Main Scene
 ### Play button
+*
 Help button
 Game Scene
 User-controlled paddle
@@ -14,7 +15,7 @@ Life display
 Score display
 Sound effects
 Help Scene
-
+*
 Help text
 Back button
 Win Scene
