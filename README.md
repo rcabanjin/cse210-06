@@ -1,6 +1,6 @@
 # cse210-06
 
-## Mock-ups game
+## Mock-up game
 
 ### Main Scene
 * Play button
