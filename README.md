@@ -4,8 +4,7 @@
 
 ## Main Scene
 ### Play button
-*
-Help button
+*Help button
 Game Scene
 User-controlled paddle
 Angled ball movement
