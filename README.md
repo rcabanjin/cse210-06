@@ -1,9 +1,9 @@
 # cse210-06
 
-##Mock-ups game
+## Mock-ups game
 
-##Main Scene
-###Play button
+## Main Scene
+### Play button
 Help button
 Game Scene
 User-controlled paddle
