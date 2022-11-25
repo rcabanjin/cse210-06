@@ -25,26 +25,16 @@ project folder. Select the main module inside the hunter folder and click the "r
 ---
 The project files and folders are organized as follows:
 ```
-
-```
-cse210-05 (project root folder)
-    │ README.md (general info)
-
-C   │ **main**.py (entry point for program) (NEEDS CHANGED) Robin
-    │ constants.py (good)
-    └───game (specific game folders)
-    └───casting
-    └───directing
-        │ director.py
-    └───scripting
-        │ script.py
-    └───services
-        │ keyboard_service.py 
-        │ video_service.py
-    └───shared 
-        │ color.py 
-        │ point.py 
-
+root                    (project root folder)
++-- pong              (source code for game)
+  +-- game              (specific game classes)
+    +-- casting         (various actor classes)
+    +-- directing       (director and scene manager classes)
+    +-- scripting       (various action classes)
+    +-- services        (various service classes)
+  +-- __main__.py       (entry point for program)
+  +-- constants.py      (game constants)
++-- README.md           (general info)
 ```
 
 ```
