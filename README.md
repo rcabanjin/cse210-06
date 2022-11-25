@@ -1,29 +1,83 @@
+# Pong
+
+Pong is a game that simulates table tennis. The player controls an in-game paddle by moving it vertically across the left or right side of the screen. They will compete against another player by controlling a second paddle on the opposing side. 
+
+Players use the paddles to hit a ball back and forth. The goal is for each player to reach eleven points before the opponent; points are earned when one fails to return the ball to the other.
+
+## Getting Started
+
+---
+
+Make sure you have Python 3.8.0 or newer and Raylib Python CFFI 3.7 installed and running on your machine. You can install Raylib Python CFFI by opening a terminal and running the following command.
+
+```
+python3 -m pip install raylib
+```
+
+After you've installed the required libraries, open a terminal and browse to the project's root folder. Start the program by running the following command.```
+
+
+```
+You can also run the program from an IDE like Visual Studio Code. Start your IDE and open the
+project folder. Select the main module inside the hunter folder and click the "run" icon.
+
+## Project Structure
+---
+The project files and folders are organized as follows:
+```
+
+```
+cse210-05 (project root folder)
+    │ README.md (general info)
+
+C   │ **main**.py (entry point for program) (NEEDS CHANGED) Robin
+    │ constants.py (good)
+    └───game (specific game folders)
+    └───casting
+    └───directing
+        │ director.py
+    └───scripting
+        │ script.py
+    └───services
+        │ keyboard_service.py 
+        │ video_service.py
+    └───shared 
+        │ color.py 
+        │ point.py 
+
+```
+
+```
+
+## Required Technologies
+---
+* Python 3.8.0
+* Raylib Python CFFI 3.7
+
+## Authors
+---
+* TODO: Add your name and email here
+```
+
 # cse210-06
 
 ## Mock-up game
 
 ### Main Scene
 * Play button
-* Help button
 
 ### Game Scene
 * User-controlled paddle
 * Angled ball movement
-*  Multicolored bricks
+* Color ball changes when hit
 * Collision detection
-* Life display
+* Ping Pong table design
 * Score display
 * Sound effects
 
-### Help Scene
-* Help text
-* Back button
-
 ### Win Scene
 * Announcement
-* Smiley face animation
 
 ### Lose Scene
 * Announcement
-* Sad face animation
 * Restart button
