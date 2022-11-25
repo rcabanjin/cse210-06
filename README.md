@@ -69,7 +69,7 @@ C   │ **main**.py (entry point for program) (NEEDS CHANGED) Robin
 ### Game Scene
 * User-controlled paddle
 * Angled ball movement
-* Color ball changes when hit
+* Color paddle changes when hit
 * Collision detection
 * Ping Pong table design
 * Score display
