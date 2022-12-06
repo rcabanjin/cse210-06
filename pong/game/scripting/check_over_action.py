@@ -8,7 +8,7 @@ class CheckOverAction(Action):
         
     def execute(self, cast, script, callback):
         bricks = cast.get_actors(BRICK_GROUP)
-        if len(bricks) == 0:
+        if len(bricks) == 1:
             stats = cast.get_first_actor(STATS_GROUP)
             stats.next_level()
             callback.on_next(NEXT_LEVEL)

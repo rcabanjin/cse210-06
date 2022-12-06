@@ -97,13 +97,21 @@ BALL_WIDTH = 28
 BALL_HEIGHT = 28
 BALL_VELOCITY = 6
 
-# RACKET
-RACKET_GROUP = "rackets"
-RACKET_IMAGES = [f"pong/assets/images/{n:03}.png" for n in range(100, 103)]
-RACKET_WIDTH = 106
-RACKET_HEIGHT = 28
-RACKET_RATE = 6
-RACKET_VELOCITY = 7
+# RACKET1
+RACKET_GROUP_1 = "rackets"
+RACKET_IMAGES_1 = [f"pong/assets/images/{n:03}.png" for n in range(100, 103)]
+RACKET_WIDTH_1 = 106
+RACKET_HEIGHT_1 = 28
+RACKET_RATE_1 = 6
+RACKET_VELOCITY_1 = 7
+
+# RACKET2
+RACKET_GROUP_2 = "rackets2"
+RACKET_IMAGES_2 = [f"pong/assets/images/{n:03}.png" for n in range(100, 103)]
+RACKET_WIDTH_2 = 300
+RACKET_HEIGHT_2 = 60
+RACKET_RATE_2 = 6
+RACKET_VELOCITY_2 = 7
 
 # BRICK
 BRICK_GROUP = "bricks"
