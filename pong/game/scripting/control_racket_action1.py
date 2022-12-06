@@ -9,9 +9,9 @@ class ControlRacketAction1(Action):
         
     def execute(self, cast, script, callback):
         racket1 = cast.get_first_actor(RACKET_GROUP_1)
-        if self._keyboard_service.is_key_down(LEFT): 
+        if self._keyboard_service.is_key_down(LEFT_1): 
             racket1.swing_left()
-        elif self._keyboard_service.is_key_down(RIGHT): 
+        elif self._keyboard_service.is_key_down(RIGHT_1): 
             racket1.swing_right()  
         else: 
             racket1.stop_moving()        
