@@ -97,7 +97,7 @@ BALL_GROUP = "balls"
 BALL_IMAGE = "pong/assets/images/000.png"
 BALL_WIDTH = 28
 BALL_HEIGHT = 28
-BALL_VELOCITY = 6
+BALL_VELOCITY = 7
 
 # RACKET1
 RACKET_GROUP_1 = "rackets1"
