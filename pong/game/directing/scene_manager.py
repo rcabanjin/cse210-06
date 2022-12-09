@@ -321,4 +321,4 @@ class SceneManager:
         script.add_action(UPDATE, self.COLLIDE_RACKET_ACTION_2)
         script.add_action(UPDATE, self.MOVE_RACKET_ACTION_1)
         script.add_action(UPDATE, self.MOVE_RACKET_ACTION_2)
-        script.add_action(UPDATE, self.CHECK_OVER_ACTION)
+        #script.add_action(UPDATE, self.CHECK_OVER_ACTION)
