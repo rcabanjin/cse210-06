@@ -22,18 +22,22 @@ class Ball(Actor):
     def bounce_x(self):
         """Bounces the ball in the x direction."""
         velocity = self._body.get_velocity()
+        position = self._body.get_position()
         rn = random.uniform(0.9, 1.1)
         vx = velocity.get_x() * rn * -1
         vy = velocity.get_y()
+        # self._body.set_position(Point(position._x + vx, position._y))
         velocity = Point(vx, vy)
         self._body.set_velocity(velocity)
 
     def bounce_y(self):
         """Bounces the ball in the y direction."""
         velocity = self._body.get_velocity()
-        rn = random.uniform(0.8, 1.2)
+        position = self._body.get_position()
+        rn = 1
         vx = velocity.get_x()
         vy = velocity.get_y() * rn * -1 
+        # self._body.set_position(Point(position._x, position._y + vy))
         velocity = Point(vx, vy)
         self._body.set_velocity(velocity)
 

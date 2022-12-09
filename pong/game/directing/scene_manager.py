@@ -169,7 +169,7 @@ class SceneManager:
     def _add_ball(self, cast):
         cast.clear_actors(BALL_GROUP)
         x = CENTER_X - BALL_WIDTH / 2
-        y = SCREEN_HEIGHT - RACKET_HEIGHT_1 - BALL_HEIGHT  
+        y = SCREEN_HEIGHT - RACKET_HEIGHT_1 - BALL_HEIGHT - 2
         position = Point(x, y)
         size = Point(BALL_WIDTH, BALL_HEIGHT)
         velocity = Point(0, 0)
