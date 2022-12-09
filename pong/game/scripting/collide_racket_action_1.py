@@ -1,5 +1,5 @@
 from constants import *
-from game.casting.sound import Sound
+#from game.casting.sound import Sound
 from game.scripting.action import Action
 
 
@@ -18,5 +18,5 @@ class CollideRacketAction1(Action):
 
         if self._physics_service.has_collided(ball_body, racket_body):
             ball.bounce_y()
-            sound = Sound(BOUNCE_SOUND)
-            self._audio_service.play_sound(sound)    
+            #sound = Sound(BOUNCE_SOUND)
+            #self._audio_service.play_sound(sound)    
