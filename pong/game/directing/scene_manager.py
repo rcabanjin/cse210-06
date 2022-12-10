@@ -9,8 +9,8 @@ from game.casting.label import Label
 from game.casting.point import Point
 from game.casting.racket1 import Racket1
 from game.casting.racket2 import Racket2
-from game.casting.stats import Stats_1  
-from game.casting.stats import Stats_2  
+from game.casting.stats1 import Stats_1  
+from game.casting.stats2 import Stats_2  
 from game.casting.text import Text 
 from game.scripting.change_scene_action import ChangeSceneAction
 from game.scripting.check_over_action import CheckOverAction
