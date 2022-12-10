@@ -99,7 +99,7 @@ class SceneManager:
         #self._add_level(cast)
         self._add_lives_1(cast)
         self._add_lives_2(cast)
-        self._add_score(cast)
+        #self._add_score(cast)
         self._add_ball(cast)
         #self._add_bricks(cast)
         self._add_racket1(cast)

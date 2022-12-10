@@ -11,7 +11,7 @@ class DrawHudAction(Action):
         stats = cast.get_first_actor(STATS_GROUP)
         self._draw_label(cast, LIVES_GROUP_1, LIVES_FORMAT_1, stats.get_lives())
         self._draw_label(cast, LIVES_GROUP_2, LIVES_FORMAT_2, stats.get_lives())
-        self._draw_label(cast, SCORE_GROUP, SCORE_FORMAT, stats.get_score())
+        #self._draw_label(cast, SCORE_GROUP, SCORE_FORMAT, stats.get_score())
 
     def _draw_label(self, cast, group, format_str, data):
         label = cast.get_first_actor(group)
